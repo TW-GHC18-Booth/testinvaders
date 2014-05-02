@@ -6,7 +6,7 @@ A course on fast feedback, test-driven development, and automated deployment.
 
 ### The easy way!
 
-1. <http://testinvaders.heroku.com/>
+1. <http://testinvaders.herokuapp.com/>
 
 ### The hard way!
 
@@ -21,7 +21,7 @@ A course on fast feedback, test-driven development, and automated deployment.
 
 1. Get two or more friends.
 1. Arrange them in pairs.
-1. Sit each pair in front of [testinvaders](http://testinvaders.heroku.com/).
+1. Sit each pair in front of [testinvaders](http://testinvaders.herokuapp.com/).
   1. Ask them to fix the obvious bug.
   1. Ask them to fix a not-obvious bug.
   1. Ask them to add a feature.
@@ -43,6 +43,6 @@ Natalie Drucker and Scott Shaw gave opportunities and expectations.
 
 Brad Ward, [Ray Grasso][ray], and Rohit Maurya provided invaluable feedback.
 
-[coder]: http://coder.heroku.com/
+[coder]: http://coder.herokuapp.com/
 [ryan]: http://distributedlife.com/
 [ray]: http://raygrasso.com/
