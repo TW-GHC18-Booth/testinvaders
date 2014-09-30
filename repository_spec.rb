@@ -57,11 +57,4 @@ describe Repository do
     assert last_response.ok?, "Failed to get fork: #{@fork_id}"
     JSON(last_response.body).must_equal stub_fork
   end
-
-  it 'should overrwrite forks' do
-    put "/v1/forks/#{@fork_id}", stub_fork_2.to_json
-
-    assert last_response.ok?, "Failed to put fork: #{@fork_id}"
-    JSON(forks[id: @fork_id][:data]).must_equal stub_fork_2
-  end
 end
