@@ -55,6 +55,6 @@ describe Repository do
     get "/v1/forks/#{@fork_id}"
 
     assert last_response.ok?, "Failed to get fork: #{@fork_id}"
-    JSON(last_response.body).must_equal stub_fork
+    JSON(last_response.body).must_equal stub_fork.to_json
   end
 end

@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.1.3'
+ruby '2.4.0'
 
 gem 'rack'
 gem 'rack-rewrite'
