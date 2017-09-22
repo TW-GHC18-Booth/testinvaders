@@ -60,7 +60,7 @@ describe("Given a Game", function() {
     });
 
     it("should call collide on both things if they collide", function() {
-      thing.box.is_colliding_with.andReturn(true);
+      thing.box.is_colliding_with.and.returnValue(true);
 
       game.check_for_collisions();
 

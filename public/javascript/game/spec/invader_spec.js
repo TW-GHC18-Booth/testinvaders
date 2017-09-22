@@ -104,13 +104,13 @@ describe("Invader", function() {
 
         it("should not shoot a bullet within twenty seconds of firing one before", function() {
           invader.update(19);
-          expect(stub_bullet.shoot.callCount).toEqual(1);
+          expect(stub_bullet.shoot.calls.count()).toEqual(1);
         });
 
         it("should shoot a bullet every time the shot timer elapses", function() {
           elapse_shot_timer();
 
-          expect(stub_bullet.shoot.callCount).toEqual(2);
+          expect(stub_bullet.shoot.calls.count()).toEqual(2);
         });
       });
 

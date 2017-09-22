@@ -9,7 +9,7 @@ gem 'sequel'
 
 group :development do
   gem 'foreman'
-  gem 'jasmine'
+  gem 'jasmine', '~> 2.8.0'
   gem 'minitest'
   gem 'rack-test'
   gem 'rake'
